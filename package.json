@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/bertica/api-rest-cervezas#readme",
   "devDependencies": {
-    "eslint": "^2.13.1",
+    "eslint": "^6.8.0",
     "istanbul": "^0.4.4",
     "mocha": "^2.5.3",
     "nodemon": "^1.9.2",
