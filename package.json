@@ -1,0 +1,32 @@
+{
+  "name": "api-rest-cervezas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests",
+    "start": "nodemon app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bertica/api-rest-cervezas.git"
+  },
+  "author": "Berta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bertica/api-rest-cervezas/issues"
+  },
+  "homepage": "https://github.com/bertica/api-rest-cervezas#readme",
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3",
+    "nodemon": "^1.9.2",
+    "supertest": "^1.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.2"
+  }
+}
